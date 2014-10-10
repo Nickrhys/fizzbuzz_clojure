@@ -33,3 +33,7 @@
 (deftest returns-fizz-for-six
   (testing "returns fizz when divisable by three"
     (is (= "fizz" ( fizz-buzz 6)))))
+
+(deftest returns-buzz-for-ten
+  (testing "returns buzz when divisable by five"
+    (is (= "buzz" (fizz-buzz 10)))))
