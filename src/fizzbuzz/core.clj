@@ -22,3 +22,6 @@
     (if (divisable-by? number 3) "fizz"
       (if (divisable-by? number 5) "buzz"
         number))))
+
+(doseq [x (map fizz-buzz (range 1 101))]
+  (println x))
