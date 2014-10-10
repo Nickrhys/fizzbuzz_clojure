@@ -1,10 +1,16 @@
 # fizzbuzz
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library designed to run fizz buzz. 
 
 ## Usage
 
-FIXME
+clone repo and cd into directory. Run
+
+```
+lein test
+```
+
+to print fizz buzz to 100 and see tests passed.
 
 ## License
 
