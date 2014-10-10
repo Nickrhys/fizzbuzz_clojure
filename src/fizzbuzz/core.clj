@@ -13,3 +13,9 @@
 
 (defn divisable-by-fifteen? [number]
   (= 0 (mod number 15)))
+
+(defn divisable-by? [number divisor]
+  (= 0 (mod number divisor)))
+
+(defn fizz-buzz [number]
+  (if (divisable-by? number 3) "fizz"))

@@ -29,3 +29,7 @@
 (deftest is-not-divisable-by-fifteen
   (testing "returns false for 1"
     (is (= false (divisable-by-fifteen? 1)))))
+
+(deftest returns-fizz-for-six
+  (testing "returns fizz when divisable by three"
+    (is (= "fizz" ( fizz-buzz 6)))))
