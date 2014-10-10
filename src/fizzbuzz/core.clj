@@ -10,3 +10,6 @@
 
 (defn divisable-by-five? [number]
   (= 0 (mod number 5)))
+
+(defn divisable-by-fifteen? [number]
+  (= true))
