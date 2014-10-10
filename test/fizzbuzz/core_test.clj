@@ -37,3 +37,7 @@
 (deftest returns-buzz-for-ten
   (testing "returns buzz when divisable by five"
     (is (= "buzz" (fizz-buzz 10)))))
+
+(deftest returns-fizz-buzz-for-thirty
+  (testing "returns fizzbuzz when divisable by fifteen"
+    (is (= "fizzbuzz" (fizz-buzz 30)))))

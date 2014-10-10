@@ -18,5 +18,6 @@
   (= 0 (mod number divisor)))
 
 (defn fizz-buzz [number]
-  (if (divisable-by? number 3) "fizz"
-    (if (divisable-by? number 5) "buzz")))
+  (if (divisable-by? number 15) "fizzbuzz"
+    (if (divisable-by? number 3) "fizz"
+      (if (divisable-by? number 5) "buzz"))))
