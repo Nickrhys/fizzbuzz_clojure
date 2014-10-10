@@ -6,4 +6,4 @@
   (println x "Hello, World!"))
 
 (defn divisable-by-three? [number] 
-  (= true true))
+  (= 0 (mod number 3)))
