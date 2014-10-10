@@ -41,3 +41,7 @@
 (deftest returns-fizz-buzz-for-thirty
   (testing "returns fizzbuzz when divisable by fifteen"
     (is (= "fizzbuzz" (fizz-buzz 30)))))
+
+(deftest not-returns-fizz-buzz-for-one
+  (testing "returns the number one"
+    (is (= 1 (fizz-buzz 1)))))
