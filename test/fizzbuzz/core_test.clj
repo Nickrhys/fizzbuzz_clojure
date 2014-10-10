@@ -13,3 +13,7 @@
 (deftest is-not-divisable-by-three
   (testing "returns false for 1"
     (is (= false (divisable-by-three? 1)))))
+
+(deftest is-divisable-by-five
+  (testing "returns true for 5"
+    (is (= true (divisable-by-five? 5)))))

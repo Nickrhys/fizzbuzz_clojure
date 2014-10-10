@@ -7,3 +7,6 @@
 
 (defn divisable-by-three? [number] 
   (= 0 (mod number 3)))
+
+(defn divisable-by-five? [number]
+  (= true))
