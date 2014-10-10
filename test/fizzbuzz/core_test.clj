@@ -25,3 +25,7 @@
 (deftest is-divisable-by-fifteen
   (testing "returns true for 15"
     (is (= true (divisable-by-fifteen? 15)))))
+
+(deftest is-not-divisable-by-fifteen
+  (testing "returns false for 1"
+    (is (= false (divisable-by-fifteen? 1)))))

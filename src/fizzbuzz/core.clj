@@ -12,4 +12,4 @@
   (= 0 (mod number 5)))
 
 (defn divisable-by-fifteen? [number]
-  (= true))
+  (= 0 (mod number 15)))
