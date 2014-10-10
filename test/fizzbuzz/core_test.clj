@@ -7,5 +7,9 @@
     (is (= 1 1))))
 
 (deftest is-divisable-by-three
-  (testing "returns 3 for 3"
-    (is (divisable-by-three? 3))))
+  (testing "returns true for 3"
+    (is (= true (divisable-by-three? 3)))))
+
+(deftest is-not-divisable-by-three
+  (testing "returns false for 1"
+    (is (= false (divisable-by-three? 1)))))

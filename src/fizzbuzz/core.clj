@@ -5,4 +5,5 @@
   [x]
   (println x "Hello, World!"))
 
-(defn divisable-by-three? [number] true)
+(defn divisable-by-three? [number] 
+  (= true true))
